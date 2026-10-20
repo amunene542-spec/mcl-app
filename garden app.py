@@ -1,4 +1,10 @@
 import streamlit as st
+
+st.set_page_config(
+    page_title="MCL Farm Management",
+    page_icon="🌾",
+    layout="wide"
+)import streamlit as st
 import streamlit as st
 import google.generativeai as genai
 from datetime import datetime
