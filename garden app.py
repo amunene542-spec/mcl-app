@@ -359,6 +359,5 @@ if st.button("Analyze Logs & Generate Report"):
             response = model.generate_content(prompt)
             st.markdown(response.text)
         except Exception as e:
-            st.error(f"Error generating report: {e}")streamlit
-google-generativeai
+            st.error(f"Error generating report: {e}")
     
