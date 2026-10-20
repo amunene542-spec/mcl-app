@@ -9,7 +9,7 @@ import google.generativeai as genai
 from datetime import datetime
 
 # 1. Define your API key
-api_key = "YOUR_ACTUAL_API_KEY_HERE"
+api_key = "AIzaSy..."  # Your real Gemini API key
 
 # 2. Configure the SDK
 genai.configure(api_key=api_key)
